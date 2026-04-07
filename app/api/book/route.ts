@@ -1,3 +1,22 @@
+// Required for Next.js static export. GET returns the API schema for agent discovery.
+export const dynamic = "force-static";
+
+/** GET /api/book — returns the request schema (agent/developer discovery) */
+export async function GET() {
+  return Response.json({
+    endpoint: "POST /api/book",
+    description: "Create a cabin booking. Returns confirmation immediately.",
+    request: {
+      checkIn:  "string  // YYYY-MM-DD, required",
+      checkOut: "string  // YYYY-MM-DD, required",
+      guests:   "number  // optional, default 1",
+      name:     "string  // guest full name, required",
+      email:    "string  // guest email, required",
+      addons:   "string[]  // optional: 'bedding' | 'parking' | 'breakfast'",
+    },
+  });
+}
+
 type BookingRequest = {
   checkIn: string;
   checkOut: string;

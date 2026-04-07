@@ -1,3 +1,6 @@
+// Required for Next.js static export (output: 'export')
+export const dynamic = "force-static";
+
 export async function GET() {
   const available = [
     "2025-06-07", "2025-06-08", "2025-06-09",
