@@ -1,0 +1,83 @@
+{
+  "measured_at": "2026-04-07T11:00:17.622Z",
+  "tokenizer": "cl100k_base (js-tiktoken, lokalt — ingen API)",
+  "co2_constant": "0.002g per 1000 tokens",
+  "human_first": {
+    "total_input_tokens": 20345,
+    "total_output_tokens": 555,
+    "total_tokens": 20900,
+    "num_turns": 8,
+    "co2_g": "0.0418",
+    "turns": [
+      {
+        "turn": 1,
+        "label": "Ser initial side (Step 0: Kalender)",
+        "input_tokens": 1392,
+        "output_tokens": 82
+      },
+      {
+        "turn": 2,
+        "label": "Klikker check-in dato (14. juni)",
+        "input_tokens": 1673,
+        "output_tokens": 67
+      },
+      {
+        "turn": 3,
+        "label": "Fyller inn gjesteinfo (Step 1)",
+        "input_tokens": 2100,
+        "output_tokens": 67
+      },
+      {
+        "turn": 4,
+        "label": "Bekrefter utfylt skjema og går videre (Step 1 → 2)",
+        "input_tokens": 2317,
+        "output_tokens": 44
+      },
+      {
+        "turn": 5,
+        "label": "Velger tillegg (Step 2: Add-ons)",
+        "input_tokens": 2749,
+        "output_tokens": 61
+      },
+      {
+        "turn": 6,
+        "label": "Bekrefter valgte tillegg og går til review (Step 2 → 3)",
+        "input_tokens": 2955,
+        "output_tokens": 47
+      },
+      {
+        "turn": 7,
+        "label": "Leser gjennom og bekrefter booking (Step 3: Review)",
+        "input_tokens": 3420,
+        "output_tokens": 118
+      },
+      {
+        "turn": 8,
+        "label": "Bekrefter at booking er fullført",
+        "input_tokens": 3739,
+        "output_tokens": 69
+      }
+    ]
+  },
+  "agent_first": {
+    "total_input_tokens": 437,
+    "total_output_tokens": 178,
+    "total_tokens": 615,
+    "num_turns": 1,
+    "co2_g": "0.0012",
+    "turns": [
+      {
+        "turn": 1,
+        "label": "POST /api/book (enkelt API-kall)",
+        "input_tokens": 437,
+        "output_tokens": 178
+      }
+    ]
+  },
+  "comparison": {
+    "token_reduction_pct": 97,
+    "co2_reduction_pct": 97,
+    "turns_reduction": 7,
+    "token_ratio": "34x"
+  }
+}
