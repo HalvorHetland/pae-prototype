@@ -8,6 +8,7 @@ const links = [
   { href: "/agent", label: "⚡ Agent" },
   { href: "/hybrid", label: "✦ Hybrid" },
   { href: "/compare", label: "📊 Compare" },
+  { href: "/roadtrip", label: "🚗 Roadtrip" },
 ];
 
 export default function Nav() {
