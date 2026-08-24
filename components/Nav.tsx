@@ -9,6 +9,7 @@ const links = [
   { href: "/hybrid", label: "✦ Hybrid" },
   { href: "/compare", label: "📊 Compare" },
   { href: "/api-llm", label: "🔌 API→LLM" },
+  { href: "/guidacle", label: "🗺️ Guidacle" },
 ];
 
 export default function Nav() {

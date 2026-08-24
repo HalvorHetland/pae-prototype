@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "guidoraCommit": "52d58b72",
+    "budgets": {
+      "normal": 160,
+      "deeper": 320,
+      "deep": 800
+    }
+  },
+  "templateSkeleton": "[instruksjoner utelatt]\n\nSource material from {{sourceName}} for \"{{title}}\":\n{{extract}}\n\n[instruksjoner utelatt]",
+  "sources": [
+    {
+      "title": "Frogner Park",
+      "pageid": 4405452,
+      "language": "en",
+      "extract": "Frogner Park (Norwegian: Frognerparken) is a public park in the central West End borough of Frogner in Oslo, Norway. The park is historically part of Frogner Manor and is Oslo's largest park, open to the public at all times. It includes the manor house which is the seat of Oslo Museum, the nearby Henriette Wegner Pavilion, the Vigeland installation of sculptures (Norwegian: Vigelandsanlegget) created by sculptor Gustav Vigeland, Frogner Baths, Frogner stadion, Frognerparken Café, the restaurant Herregårdskroen and the largest collection of roses in the country with 14,000 plants of 150 species. Frogner Park is the most visited tourist attraction in Norway.\nFrogner Manor was historically one of the largest estates in the modern Oslo area. Both the park, the entire borough of Frogner as well as Frognerseteren derive their names from Frogner Manor. The manor house is located in the south of the park, and houses Oslo Museum, which opened there in 1909. The nearby Henriette Wegner Pavilion commemorates the philanthropist and women's rights pioneer Henriette Wegner and was moved from Blaafarveværket in 1837. Frogner Park was gradually opened as a public park from 1904 and the 1914 Jubilee Exhibition was held there. From 1924, Gustav Vigeland's sculpture installation was built in parts of Frogner Park.",
+      "factsText": "Frogner Park — park in Oslo.\nType: park.\nOfficially opened: 1914.",
+      "wikivoyageExtract": null
+    },
+    {
+      "title": "Kulturkirken Jakob",
+      "pageid": 36282046,
+      "language": "en",
+      "extract": "Kulturkirken Jakob (in English St. James Church of Culture) is a church in Oslo, Norway, designed by architect Georg Andreas Bull and built in 1880. The original name of the Church was St James's Church or Jakobs kirke.\nThe church is named after the Apostle James (the Great), in Norwegian language: Apostelen Jakob.\nThe altarpiece of the building year by Eilif Peterssen and shows the adoring shepherds.\nIn the porch hangs a relief of the Archangel Michael.",
+      "factsText": "Kulturkirken Jakob — church in Oslo, Norway.\nType: church building.\nArchitect: Georg Andreas Bull.\nCreated: 1880.",
+      "wikivoyageExtract": null
+    }
+  ]
+}

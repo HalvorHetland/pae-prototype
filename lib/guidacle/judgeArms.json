@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "guidoraCommit": "52d58b72",
+    "provenance": {
+      "Frogner Park": "by-title",
+      "Kulturkirken Jakob": "by-title",
+      "Oslo Opera House": "pool"
+    },
+    "missingTitles": []
+  },
+  "arms": [
+    {
+      "source": "by-title",
+      "qid": "Q1126911",
+      "title": "Frogner Park",
+      "pageid": 4405452,
+      "language": "en",
+      "leadExtract": "Frogner Park (Norwegian: Frognerparken) is a public park in the central West End borough of Frogner in Oslo, Norway. The park is historically part of Frogner Manor and is Oslo's largest park, open to the public at all times. It includes the manor house which is the seat of Oslo Museum, the nearby Henriette Wegner Pavilion, the Vigeland installation of sculptures (Norwegian: Vigelandsanlegget) created by sculptor Gustav Vigeland, Frogner Baths, Frogner stadion, Frognerparken Café, the restaurant Herregårdskroen and the largest collection of roses in the country with 14,000 plants of 150 species. Frogner Park is the most visited tourist attraction in Norway.\nFrogner Manor was historically one of the largest estates in the modern Oslo area. Both the park, the entire borough of Frogner as well as Frognerseteren derive their names from Frogner Manor. The manor house is located in the south of the park, and houses Oslo Museum, which opened there in 1909. The nearby Henriette Wegner Pavilion commemorates the philanthropist and women's rights pioneer Henriette Wegner and was moved from Blaafarveværket in 1837. Frogner Park was gradually opened as a public park from 1904 and the 1914 Jubilee Exhibition was held there. From 1924, Gustav Vigeland's sculpture installation was built in parts of Frogner Park.",
+      "factsText": "Frogner Park — park in Oslo.\nType: park.\nOfficially opened: 1914.",
+      "articleLengthChars": 1316,
+      "articleLengthBytes": 22819
+    },
+    {
+      "source": "by-title",
+      "qid": "Q1773529",
+      "title": "Kulturkirken Jakob",
+      "pageid": 36282046,
+      "language": "en",
+      "leadExtract": "Kulturkirken Jakob (in English St. James Church of Culture) is a church in Oslo, Norway, designed by architect Georg Andreas Bull and built in 1880. The original name of the Church was St James's Church or Jakobs kirke.\nThe church is named after the Apostle James (the Great), in Norwegian language: Apostelen Jakob.\nThe altarpiece of the building year by Eilif Peterssen and shows the adoring shepherds.\nIn the porch hangs a relief of the Archangel Michael.",
+      "factsText": "Kulturkirken Jakob — church in Oslo, Norway.\nType: church building.\nArchitect: Georg Andreas Bull.\nCreated: 1880.",
+      "articleLengthChars": 458,
+      "articleLengthBytes": 2151
+    },
+    {
+      "source": "pool",
+      "qid": "Q43280",
+      "title": "Oslo Opera House",
+      "pageid": 12182716,
+      "language": "en",
+      "leadExtract": "The Oslo Opera House (Norwegian: Operahuset) is the home of the Norwegian National Opera and Ballet, and the national opera house in Norway. The building is situated in the Bjørvika neighbourhood of central Oslo, at the head of the Oslofjord. It is operated by Norwegian Directorate of Public Construction and Property, the government agency which manages property for the Norwegian government. The structure contains 1,100 rooms in a total area of 49,000 m2 (530,000 sq ft). The main auditorium seats 1,364 and two other performance spaces can seat 200 and 400. The main stage is 16 m (52 ft) wide and 40 m (130 ft) deep.  The angled exterior surfaces of the building are covered with marble from Carrara, Italy and white granite and make it appear to rise from the water.  It is the largest cultural building constructed in Norway since Nidaros Cathedral was completed circa 1300.",
+      "factsText": "Oslo Opera House — opera house in Oslo, Norway.\nType: opera house, concert hall.\nCreator: Craig Dykers.\nArchitect: Snøhetta.\nCreated: 2008.\nOfficially opened: 2008.\nCommissioned by: Norwegian Directorate of Public Construction and Property.",
+      "articleLengthChars": 882,
+      "articleLengthBytes": 10393
+    }
+  ]
+}
