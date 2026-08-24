@@ -1,11 +1,15 @@
 // Pure derivations over the frozen Guidacle snapshot in lib/guidacle/.
 //
-// The snapshot's `sheetText` is the production string, rendered by guidora's
-// lib/planCandidateSheet (the same module routes/poi/chat.ts imports). This
-// file re-renders that sheet from the structured `candidates` array, and
-// scripts/measure-guidacle-demo.ts asserts the two are byte-equal. That assert
-// is what lets the variants below be trusted: they are the same template with
-// one thing removed, not a lookalike written from memory.
+// The snapshot's `sheetText` was produced by running guidora's own candidate-line
+// template (routes/poi/chat.ts) over a real pool. This file re-renders that sheet
+// from the structured `candidates` array, and scripts/measure-guidacle-demo.ts
+// asserts the two are byte-equal.
+//
+// That assert is what lets the variants below be trusted: they are the same
+// template with one thing removed, not a lookalike written from memory. It is
+// also the only thing holding the two in sync — the renderer here is a copy, so
+// if chat.ts ever changes its line format, the assert fails on the next snapshot
+// and the copy has to be updated. Fix the renderer, never the assert.
 //
 // Everything here is pure so the CLI and the page compute identical numbers.
 

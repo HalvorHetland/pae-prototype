@@ -1,12 +1,13 @@
 {
   "meta": {
-    "guidoraCommit": "cc102e1f",
+    "guidoraCommit": "52d58b72",
     "provenance": {
       "Frogner Park": "by-title",
       "Kulturkirken Jakob": "by-title",
       "Oslo Opera House": "pool"
     },
-    "missingTitles": []
+    "missingTitles": [],
+    "exporter": "Generert av et lokalt eksportskript som gjenbruker guidora-modulene (findNearbyPOIsComplete, findCityHeadliners, wikidataFacts, readTouristRelevance) og produksjonsmalen for kandidatlinjen. Skriptet ligger ikke i guidora-repoet; guidoraCommit er koden datauttrekket gjenspeiler."
   },
   "arms": [
     {

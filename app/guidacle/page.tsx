@@ -171,7 +171,7 @@ export default function GuidaclePage() {
         <p className="text-sm text-gray-400 mt-1 max-w-3xl">
           Før modellen foreslår én rute, leser den et kandidatark: ett sted per
           linje, med stjerner, avstand, retning og ledesetning. Dette er den
-          faktiske strengen — samme kode som endepunktet kjører.
+          faktiske strengen, generert med produksjonsmalen for kandidatlinjen.
         </p>
       </div>
 
@@ -542,12 +542,15 @@ export default function GuidaclePage() {
               · Alle payloads er generert av Guidacles produksjonskode (commit{" "}
               <code className="text-gray-300">{META.guidoraCommit}</code>) for
               startpunktet {META.start.label} ({META.start.lat},{META.start.lng}),{" "}
-              {META.mode}, {META.hours} t. Arket er rendret av samme modul som
-              endepunktet bruker; CLI-en{" "}
+              {META.mode}, {META.hours} t, av et lokalt eksportskript som
+              gjenbruker produksjonsmodulene. Arket er rendret med
+              produksjonsmalen for kandidatlinjen; CLI-en{" "}
               <code className="text-gray-300">
                 npx tsx scripts/measure-guidacle-demo.ts
               </code>{" "}
-              sjekker at re-renderingen er byte-identisk med produksjonsstrengen.
+              sjekker at re-renderingen her er byte-identisk med den strengen —
+              den sjekken er det eneste som holder de to i takt, siden renderen
+              på denne siden er en kopi.
             </li>
             <li>
               · Tokens telles live i nettleseren din med{" "}

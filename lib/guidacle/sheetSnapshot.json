@@ -1,7 +1,7 @@
 {
   "meta": {
     "generatedAt": "2026-08-24T16:17:34.919Z",
-    "guidoraCommit": "cc102e1f",
+    "guidoraCommit": "52d58b72",
     "start": {
       "lat": 59.911,
       "lng": 10.753,
@@ -21,7 +21,8 @@
       "headlinersFound": 25,
       "headlinersUsed": 25,
       "candidates": 50
-    }
+    },
+    "exporter": "Generert av et lokalt eksportskript som gjenbruker guidora-modulene (findNearbyPOIsComplete, findCityHeadliners, wikidataFacts, readTouristRelevance) og produksjonsmalen for kandidatlinjen. Skriptet ligger ikke i guidora-repoet; guidoraCommit er koden datauttrekket gjenspeiler."
   },
   "candidates": [
     {

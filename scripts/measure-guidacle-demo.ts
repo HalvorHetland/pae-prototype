@@ -6,8 +6,8 @@
 // That assert is the whole contract. The demo's claim is "this is what the
 // model actually reads", and the only thing standing behind it is that
 // lib/guidacleDemo.ts cuts the snippet, formats the distance and orders the
-// fields exactly as guidora's lib/planCandidateSheet does. If this fails, the
-// exporter and the demo have drifted — fix the renderer, never the assert.
+// fields exactly as guidora's routes/poi/chat.ts does. If this fails, the
+// snapshot and the demo have drifted — fix the renderer, never the assert.
 //
 //   npx tsx scripts/measure-guidacle-demo.ts
 
